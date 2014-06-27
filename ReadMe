@@ -1,1 +1,9 @@
-shell, command prompt, vb script practice for running routine chores in Windows.....
+A project for shell, command prompt, vb script practice about running routine chores in Windows.....
+ 
+- Defrag
+	@echo off
+	defrag /A /C /U /V 
+	pause 
+	exit
+
+	
