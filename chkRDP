@@ -1,0 +1,5 @@
+@reg query "\\%1\HKLM\SYSTEM\CurrentControlSet\Control\Terminal Server" 
+  /v fDenyTSConnections
+  
+  /*ref: http://windowsitpro.com/windows/enable-remote-desktop-over-network-demand*/
+  /*If Remote Desktop is disabled, 0x1 is returned. If it’s enabled, 0x0 is returned.*/
